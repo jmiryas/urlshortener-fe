@@ -18,23 +18,6 @@ const UrlForm = forwardRef(function UrlForm(props, _ref) {
           aria-label="URL input"
           autoFocus
         />
-        {/* <button
-          id="shortenBtn"
-          className="btn btn-shorten"
-          type="button"
-          onClick={onShorten}
-          disabled={processing}
-        >
-          {processing ? (
-            <>
-              <i className="bi bi-hourglass-split" /> <span>Processing</span>
-            </>
-          ) : (
-            <>
-              <i className="bi bi-scissors" /> <span>Shorten</span>
-            </>
-          )}
-        </button> */}
       </div>
     </div>
   );

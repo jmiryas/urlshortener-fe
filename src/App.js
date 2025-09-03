@@ -22,7 +22,6 @@ export default function App() {
 
   const inputRef = useRef(null);
 
-  // inject resources (Google Font + Bootstrap Icons lokal)
   useHeadResources();
 
   async function handleShorten() {

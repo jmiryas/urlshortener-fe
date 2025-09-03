@@ -1,4 +1,3 @@
-// Normalisasi URL persis seperti perilaku sebelumnya
 export function normalizeUrl(raw) {
   if (!raw) return "";
   raw = raw.trim();

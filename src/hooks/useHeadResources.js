@@ -1,9 +1,5 @@
 import { useEffect } from "react";
 
-/**
- * Inject Google Font (Poppins) dan Bootstrap Icons dari lokal (PUBLIC_URL)
- * sesuai implementasi sebelumnya, lengkap dengan cleanup.
- */
 export function useHeadResources() {
   useEffect(() => {
     const fontLink = document.createElement("link");

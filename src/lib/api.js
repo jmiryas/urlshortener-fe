@@ -1,4 +1,3 @@
-// Panggilan API memendekkan URL — sama seperti sebelumnya
 export async function realShorten(longUrl) {
   try {
     const response = await fetch("http://127.0.0.1:3000/api/v1/shorten", {
